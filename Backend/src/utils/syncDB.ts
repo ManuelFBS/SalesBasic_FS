@@ -1,5 +1,8 @@
 import sequelize from '../config/db.js';
-// ? import User from '../models/User.js';
+import Employee from '../models/Employees/Employee.js';
+import EmployeeStatus from '../models/Employees/EmployeeStatus.js';
+import Department from '../models/Employees/Department.js';
+import User from '../models/Users/User.js';
 
 const syncDatabase = async () => {
     try {
